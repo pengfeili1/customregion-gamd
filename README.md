@@ -4,3 +4,5 @@ The OpenMM code was referred/adapted from the following resources:
   3. The code from Alex Izvoski posted at https://github.com/openmm/openmm/issues/3281
 
 Pengfei Li acknowledge the efforts of these folks.
+
+OpenMM 8.0.0 was used for the simulations.
