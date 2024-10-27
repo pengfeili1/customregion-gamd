@@ -5,4 +5,4 @@ The OpenMM code was referred/adapted from the following resources:
 
 Pengfei Li acknowledge the efforts of these folks.
 
-OpenMM 8.0.0 was used for the simulations.
+OpenMM 8.0.0 and ParmEd 3.4.3 were used for the simulations, while a different version (combination) may not work.

@@ -222,7 +222,7 @@ class DualGaMDIntegrator(CustomIntegrator):
         dof_string+= "fprime= fprime1 + fprime2;"
         #fprime2 is the dihedral force modified by the boost. Boost calculated using group only. 
         dof_string+= "fprime2 = fgrp*((1-modifyGroup) + modifyGroup* (1 - kgrp*(Egrp - groupEnergy)) ) ;"
-        #fprime1 is the other forces modified by the boost. Boost calculated for the energy without the group.
+        #fprime1 is the other forces modified by the boost. Boost calculated for the energy without the group energy.
         dof_string+= "fprime1 = fother*((1-modifyOther) + modifyOther* (1 - ktot*(Etot - energy + groupEnergy)) );"
         dof_string+= "fother=f-fgrp;"
         dof_string+= "modifyGroup=step(Egrp-groupEnergy);"

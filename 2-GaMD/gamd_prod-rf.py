@@ -6,7 +6,6 @@ from openmm.app import *
 from openmm import *
 
 # Import the GaMD module for OpenMM
-import sys
 from openmm_gamd import *
 
 # Import the Amber/OpenMM modules
